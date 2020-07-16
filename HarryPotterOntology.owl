@@ -1,0 +1,2387 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/michele/ontologies/2020/7/harrypotter"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/michele/ontologies/2020/7/harrypotter">
+    <Prefix name="" IRI="http://www.semanticweb.org/michele/ontologies/2020/7/harrypotter"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="untitled-ontology-5" IRI="http://www.semanticweb.org/michele/ontologies/2020/7/untitled-ontology-5#"/>
+    <Declaration>
+        <Class IRI="#Animale"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Babbano"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bacchetta"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CaseDiHogwarts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Creature"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DifesaControLeArtiOscure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Dormitorio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Erbologia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#FabbricatoreBacchette"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LuoghiSecondari"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Luogo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LuogoHogwarts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LuogoMangiaMorte"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LuogoOrdineDellaFenice"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MInistroDellaMagia"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mago"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MangiaMorte"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#MateriaScolastica"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OggettoMagico"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#OrdineDellaFenice"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Personaggio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pozioni"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PrimoOrdineDellaFenice"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Professore"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#QualitàCase"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#QualitàCorvonero"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#QualitàGrifondoro"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#QualitàSerpeverde"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#QualitàTassorosso"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SecondoOrdineDellaFenice"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Staff"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Studente"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Trasfigurazione"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Umano"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#membroCorvonero"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#membroGrifondoro"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#membroSerpeverde"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#membroTassorosso"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#prefettoCorvonero"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#prefettoGrifondoro"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#prefettoSerpeverde"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#prefettoTassorosso"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#alleatoDi"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#bacchettaHaScelto"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#costruitaDa"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#dormeIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#haAnimale"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#haComePadrone"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#haCostruito"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#haInsegnato"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#haQualita"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#insegnataDa"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#nemicoDi"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#nonVuoleStareIn"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#possiedeBacchetta"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#prefettoDi"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#usatoDa"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Alastor_Moody"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Albeforth_Silente"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Alectow_Carrow"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Amelia_Bones"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Aragog"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Arnold"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Bellatrix_Lestrange"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Billie_Weasley"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Campo_di_Quidditch"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Casa_Malfoy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Casa_Weasley"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cedric_Diggory"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Charlie_Weasley"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cho_Chang"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Codaliscia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cornelius_Fudge"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Corvonero"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Crosta"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dean_Thomas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dedalus_Diggle"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Diagon_Alley"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DifesaControLeArtiOscure"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dobby"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dolores_Umbridge"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dorcas_Meadowes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dormitorio_Corvonero"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dormitorio_Grifondoro"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dormitorio_Serpeverde"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dormitorio_Tassorosso"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Draco_Malfoy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Dudley_Dursley"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Edvige"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Elphias_Doge"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Erbologia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ernie_Macmillan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fanny"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fierobecco"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fred_Weasley"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Fuffi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#George_Weasley"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gilderoy_Allock"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ginny_Weasley"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gregory_Goyle"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Grifondoro"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Grimmauld_Place_12"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gufaia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hannah_Abbott"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Harry_Potter"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hermes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hermione_Granger"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hestia_Jones"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Hogsmeade"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Horace_Lumacorno"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#James_Potter"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#James_Steward"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Kingsley_Shacklebolt"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Leotordo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LilyPotter"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lord_Voldemort"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LuciusMalfoy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Luna_Lovegood"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Malocchio_Moody"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Marge_Dursley"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#McGranitt"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Molly_Weasley"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Nagini"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Neville_Paciock"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Notturn_Alley"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ollivander"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Oscar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pansy_Parkinson"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Percy_Weasley"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pomona_Sprite"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pozioni"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Raptor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Remus_Lupin"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ron_Weasley"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rubeus_Hagrid"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rufus_Scrimgeur"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sala_Grande"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Seamus_Finnigan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Serpeverde"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Severus_Piton"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Signor_Finnigan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Signora_Granger"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Signore_Granger"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Sotteranei"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Tassorosso"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Thor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Trasfigurazione"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Villa_Conchiglia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Vincent_Tiger"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ambizioso"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#arguzia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#astuzia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#audacia"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bacchetta_tipo_1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bacchetta_tipo_2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bacchetta_tipo_3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bacchetta_tipo_4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#bacchetta_tipo_5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#coraggio"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#giratempo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#intelligenza"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#intraprendente"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#lealtà"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#pazienza"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#perseveranza"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sangue_freddo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#sapienza"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#stacanovista"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#stanza_delle_necessità"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Godric&apos;s_Hollow"/>
+    </Declaration>
+    <EquivalentClasses>
+        <Class IRI="#Bacchetta"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#costruitaDa"/>
+            <Class IRI="#FabbricatoreBacchette"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#DifesaControLeArtiOscure"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#haInsegnato"/>
+            <NamedIndividual IRI="#DifesaControLeArtiOscure"/>
+        </ObjectHasValue>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Erbologia"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#haInsegnato"/>
+            <NamedIndividual IRI="#Erbologia"/>
+        </ObjectHasValue>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#FabbricatoreBacchette"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#haCostruito"/>
+            <Class IRI="#Bacchetta"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#LuogoMangiaMorte"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#usatoDa"/>
+            <Class IRI="#MangiaMorte"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#LuogoOrdineDellaFenice"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#usatoDa"/>
+            <Class IRI="#OrdineDellaFenice"/>
+        </ObjectSomeValuesFrom>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Pozioni"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#haInsegnato"/>
+            <NamedIndividual IRI="#Pozioni"/>
+        </ObjectHasValue>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#Trasfigurazione"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#haInsegnato"/>
+            <NamedIndividual IRI="#Trasfigurazione"/>
+        </ObjectHasValue>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#membroCorvonero"/>
+        <ObjectIntersectionOf>
+            <ObjectComplementOf>
+                <ObjectHasValue>
+                    <ObjectProperty IRI="#nonVuoleStareIn"/>
+                    <NamedIndividual IRI="#Corvonero"/>
+                </ObjectHasValue>
+            </ObjectComplementOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#haQualita"/>
+                <Class IRI="#QualitàCorvonero"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#membroCorvonero"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#dormeIn"/>
+            <NamedIndividual IRI="#Dormitorio_Corvonero"/>
+        </ObjectHasValue>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#membroGrifondoro"/>
+        <ObjectIntersectionOf>
+            <ObjectComplementOf>
+                <ObjectHasValue>
+                    <ObjectProperty IRI="#nonVuoleStareIn"/>
+                    <NamedIndividual IRI="#Grifondoro"/>
+                </ObjectHasValue>
+            </ObjectComplementOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#haQualita"/>
+                <Class IRI="#QualitàGrifondoro"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#membroGrifondoro"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#dormeIn"/>
+            <NamedIndividual IRI="#Dormitorio_Grifondoro"/>
+        </ObjectHasValue>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#membroSerpeverde"/>
+        <ObjectIntersectionOf>
+            <ObjectComplementOf>
+                <ObjectHasValue>
+                    <ObjectProperty IRI="#nonVuoleStareIn"/>
+                    <NamedIndividual IRI="#Serpeverde"/>
+                </ObjectHasValue>
+            </ObjectComplementOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#haQualita"/>
+                <Class IRI="#QualitàSerpeverde"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#membroSerpeverde"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#dormeIn"/>
+            <NamedIndividual IRI="#Dormitorio_Serpeverde"/>
+        </ObjectHasValue>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#membroTassorosso"/>
+        <ObjectIntersectionOf>
+            <ObjectComplementOf>
+                <ObjectHasValue>
+                    <ObjectProperty IRI="#nonVuoleStareIn"/>
+                    <NamedIndividual IRI="#Tassorosso"/>
+                </ObjectHasValue>
+            </ObjectComplementOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#haQualita"/>
+                <Class IRI="#QualitàTassorosso"/>
+            </ObjectSomeValuesFrom>
+        </ObjectIntersectionOf>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#membroTassorosso"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#dormeIn"/>
+            <NamedIndividual IRI="#Dormitorio_Tassorosso"/>
+        </ObjectHasValue>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#prefettoCorvonero"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#prefettoDi"/>
+            <NamedIndividual IRI="#Corvonero"/>
+        </ObjectHasValue>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#prefettoGrifondoro"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#prefettoDi"/>
+            <NamedIndividual IRI="#Grifondoro"/>
+        </ObjectHasValue>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#prefettoSerpeverde"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#prefettoDi"/>
+            <NamedIndividual IRI="#Serpeverde"/>
+        </ObjectHasValue>
+    </EquivalentClasses>
+    <EquivalentClasses>
+        <Class IRI="#prefettoTassorosso"/>
+        <ObjectHasValue>
+            <ObjectProperty IRI="#prefettoDi"/>
+            <NamedIndividual IRI="#Tassorosso"/>
+        </ObjectHasValue>
+    </EquivalentClasses>
+    <SubClassOf>
+        <Class IRI="#Animale"/>
+        <Class IRI="#Personaggio"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Babbano"/>
+        <Class IRI="#Umano"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bacchetta"/>
+        <Class IRI="#OggettoMagico"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Creature"/>
+        <Class IRI="#Personaggio"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DifesaControLeArtiOscure"/>
+        <Class IRI="#Professore"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Dormitorio"/>
+        <Class IRI="#LuogoHogwarts"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Erbologia"/>
+        <Class IRI="#Professore"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#FabbricatoreBacchette"/>
+        <Class IRI="#Mago"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LuoghiSecondari"/>
+        <Class IRI="#Luogo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LuogoHogwarts"/>
+        <Class IRI="#Luogo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LuogoMangiaMorte"/>
+        <Class IRI="#Luogo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LuogoOrdineDellaFenice"/>
+        <Class IRI="#Luogo"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MInistroDellaMagia"/>
+        <Class IRI="#Mago"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mago"/>
+        <Class IRI="#Umano"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MangiaMorte"/>
+        <Class IRI="#Mago"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#MangiaMorte"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#nemicoDi"/>
+            <Class IRI="#OrdineDellaFenice"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrdineDellaFenice"/>
+        <Class IRI="#Mago"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#OrdineDellaFenice"/>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#nemicoDi"/>
+            <Class IRI="#MangiaMorte"/>
+        </ObjectSomeValuesFrom>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pozioni"/>
+        <Class IRI="#Professore"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PrimoOrdineDellaFenice"/>
+        <Class IRI="#OrdineDellaFenice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Professore"/>
+        <Class IRI="#Mago"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#QualitàCorvonero"/>
+        <Class IRI="#QualitàCase"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#QualitàGrifondoro"/>
+        <Class IRI="#QualitàCase"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#QualitàSerpeverde"/>
+        <Class IRI="#QualitàCase"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#QualitàTassorosso"/>
+        <Class IRI="#QualitàCase"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SecondoOrdineDellaFenice"/>
+        <Class IRI="#OrdineDellaFenice"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Staff"/>
+        <Class IRI="#Mago"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Studente"/>
+        <Class IRI="#Mago"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Trasfigurazione"/>
+        <Class IRI="#Professore"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Umano"/>
+        <Class IRI="#Personaggio"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#membroCorvonero"/>
+        <Class IRI="#Studente"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#membroGrifondoro"/>
+        <Class IRI="#Studente"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#membroSerpeverde"/>
+        <Class IRI="#Studente"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#membroTassorosso"/>
+        <Class IRI="#Studente"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#prefettoCorvonero"/>
+        <Class IRI="#membroCorvonero"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#prefettoGrifondoro"/>
+        <Class IRI="#membroGrifondoro"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#prefettoSerpeverde"/>
+        <Class IRI="#membroSerpeverde"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#prefettoTassorosso"/>
+        <Class IRI="#membroTassorosso"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Animale"/>
+        <Class IRI="#Creature"/>
+        <Class IRI="#Umano"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Babbano"/>
+        <Class IRI="#Mago"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#LuogoHogwarts"/>
+        <Class IRI="#LuogoMangiaMorte"/>
+        <Class IRI="#LuogoOrdineDellaFenice"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#MInistroDellaMagia"/>
+        <Class IRI="#MangiaMorte"/>
+        <Class IRI="#OrdineDellaFenice"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#PrimoOrdineDellaFenice"/>
+        <Class IRI="#SecondoOrdineDellaFenice"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#Professore"/>
+        <Class IRI="#Staff"/>
+        <Class IRI="#Studente"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#QualitàCorvonero"/>
+        <Class IRI="#QualitàGrifondoro"/>
+        <Class IRI="#QualitàSerpeverde"/>
+        <Class IRI="#QualitàTassorosso"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#membroCorvonero"/>
+        <Class IRI="#membroGrifondoro"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#membroCorvonero"/>
+        <Class IRI="#membroSerpeverde"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#membroCorvonero"/>
+        <Class IRI="#membroTassorosso"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#membroGrifondoro"/>
+        <Class IRI="#membroSerpeverde"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#membroGrifondoro"/>
+        <Class IRI="#membroTassorosso"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#membroSerpeverde"/>
+        <Class IRI="#membroTassorosso"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#prefettoCorvonero"/>
+        <Class IRI="#prefettoGrifondoro"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#prefettoCorvonero"/>
+        <Class IRI="#prefettoSerpeverde"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#prefettoCorvonero"/>
+        <Class IRI="#prefettoTassorosso"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#prefettoGrifondoro"/>
+        <Class IRI="#prefettoSerpeverde"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#prefettoGrifondoro"/>
+        <Class IRI="#prefettoTassorosso"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#prefettoSerpeverde"/>
+        <Class IRI="#prefettoTassorosso"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#PrimoOrdineDellaFenice"/>
+        <NamedIndividual IRI="#Alastor_Moody"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PrimoOrdineDellaFenice"/>
+        <NamedIndividual IRI="#Albeforth_Silente"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MangiaMorte"/>
+        <NamedIndividual IRI="#Alectow_Carrow"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PrimoOrdineDellaFenice"/>
+        <NamedIndividual IRI="#Amelia_Bones"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Creature"/>
+        <NamedIndividual IRI="#Aragog"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Animale"/>
+        <NamedIndividual IRI="#Arnold"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MangiaMorte"/>
+        <NamedIndividual IRI="#Bellatrix_Lestrange"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SecondoOrdineDellaFenice"/>
+        <NamedIndividual IRI="#Billie_Weasley"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LuogoHogwarts"/>
+        <NamedIndividual IRI="#Campo_di_Quidditch"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LuogoMangiaMorte"/>
+        <NamedIndividual IRI="#Casa_Malfoy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LuogoOrdineDellaFenice"/>
+        <NamedIndividual IRI="#Casa_Weasley"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#membroTassorosso"/>
+        <NamedIndividual IRI="#Cedric_Diggory"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#prefettoTassorosso"/>
+        <NamedIndividual IRI="#Cedric_Diggory"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SecondoOrdineDellaFenice"/>
+        <NamedIndividual IRI="#Charlie_Weasley"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Studente"/>
+        <NamedIndividual IRI="#Cho_Chang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#membroCorvonero"/>
+        <NamedIndividual IRI="#Cho_Chang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#prefettoCorvonero"/>
+        <NamedIndividual IRI="#Cho_Chang"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MangiaMorte"/>
+        <NamedIndividual IRI="#Codaliscia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MInistroDellaMagia"/>
+        <NamedIndividual IRI="#Cornelius_Fudge"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CaseDiHogwarts"/>
+        <NamedIndividual IRI="#Corvonero"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Animale"/>
+        <NamedIndividual IRI="#Crosta"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Studente"/>
+        <NamedIndividual IRI="#Dean_Thomas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#membroGrifondoro"/>
+        <NamedIndividual IRI="#Dean_Thomas"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SecondoOrdineDellaFenice"/>
+        <NamedIndividual IRI="#Dedalus_Diggle"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LuoghiSecondari"/>
+        <NamedIndividual IRI="#Diagon_Alley"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MateriaScolastica"/>
+        <NamedIndividual IRI="#DifesaControLeArtiOscure"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Creature"/>
+        <NamedIndividual IRI="#Dobby"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DifesaControLeArtiOscure"/>
+        <NamedIndividual IRI="#Dolores_Umbridge"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PrimoOrdineDellaFenice"/>
+        <NamedIndividual IRI="#Dorcas_Meadowes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Dormitorio"/>
+        <NamedIndividual IRI="#Dormitorio_Corvonero"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Dormitorio"/>
+        <NamedIndividual IRI="#Dormitorio_Grifondoro"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Dormitorio"/>
+        <NamedIndividual IRI="#Dormitorio_Serpeverde"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Dormitorio"/>
+        <NamedIndividual IRI="#Dormitorio_Tassorosso"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Studente"/>
+        <NamedIndividual IRI="#Draco_Malfoy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#membroSerpeverde"/>
+        <NamedIndividual IRI="#Draco_Malfoy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#prefettoSerpeverde"/>
+        <NamedIndividual IRI="#Draco_Malfoy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Babbano"/>
+        <NamedIndividual IRI="#Dudley_Dursley"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Animale"/>
+        <NamedIndividual IRI="#Edvige"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PrimoOrdineDellaFenice"/>
+        <NamedIndividual IRI="#Elphias_Doge"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MateriaScolastica"/>
+        <NamedIndividual IRI="#Erbologia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#membroTassorosso"/>
+        <NamedIndividual IRI="#Ernie_Macmillan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Creature"/>
+        <NamedIndividual IRI="#Fanny"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Creature"/>
+        <NamedIndividual IRI="#Fierobecco"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SecondoOrdineDellaFenice"/>
+        <NamedIndividual IRI="#Fred_Weasley"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Studente"/>
+        <NamedIndividual IRI="#Fred_Weasley"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#membroGrifondoro"/>
+        <NamedIndividual IRI="#Fred_Weasley"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Creature"/>
+        <NamedIndividual IRI="#Fuffi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SecondoOrdineDellaFenice"/>
+        <NamedIndividual IRI="#George_Weasley"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Studente"/>
+        <NamedIndividual IRI="#George_Weasley"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#membroGrifondoro"/>
+        <NamedIndividual IRI="#George_Weasley"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DifesaControLeArtiOscure"/>
+        <NamedIndividual IRI="#Gilderoy_Allock"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Professore"/>
+        <NamedIndividual IRI="#Gilderoy_Allock"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SecondoOrdineDellaFenice"/>
+        <NamedIndividual IRI="#Ginny_Weasley"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Studente"/>
+        <NamedIndividual IRI="#Ginny_Weasley"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#membroGrifondoro"/>
+        <NamedIndividual IRI="#Ginny_Weasley"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Studente"/>
+        <NamedIndividual IRI="#Gregory_Goyle"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#membroSerpeverde"/>
+        <NamedIndividual IRI="#Gregory_Goyle"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CaseDiHogwarts"/>
+        <NamedIndividual IRI="#Grifondoro"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LuogoOrdineDellaFenice"/>
+        <NamedIndividual IRI="#Grimmauld_Place_12"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LuogoHogwarts"/>
+        <NamedIndividual IRI="#Gufaia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Studente"/>
+        <NamedIndividual IRI="#Hannah_Abbott"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#membroTassorosso"/>
+        <NamedIndividual IRI="#Hannah_Abbott"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SecondoOrdineDellaFenice"/>
+        <NamedIndividual IRI="#Harry_Potter"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Studente"/>
+        <NamedIndividual IRI="#Harry_Potter"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#membroGrifondoro"/>
+        <NamedIndividual IRI="#Harry_Potter"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Animale"/>
+        <NamedIndividual IRI="#Hermes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Studente"/>
+        <NamedIndividual IRI="#Hermione_Granger"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#membroGrifondoro"/>
+        <NamedIndividual IRI="#Hermione_Granger"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SecondoOrdineDellaFenice"/>
+        <NamedIndividual IRI="#Hestia_Jones"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LuoghiSecondari"/>
+        <NamedIndividual IRI="#Hogsmeade"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pozioni"/>
+        <NamedIndividual IRI="#Horace_Lumacorno"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Professore"/>
+        <NamedIndividual IRI="#Horace_Lumacorno"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PrimoOrdineDellaFenice"/>
+        <NamedIndividual IRI="#James_Potter"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FabbricatoreBacchette"/>
+        <NamedIndividual IRI="#James_Steward"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MInistroDellaMagia"/>
+        <NamedIndividual IRI="#Kingsley_Shacklebolt"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Animale"/>
+        <NamedIndividual IRI="#Leotordo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PrimoOrdineDellaFenice"/>
+        <NamedIndividual IRI="#LilyPotter"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Mago"/>
+        <NamedIndividual IRI="#Lord_Voldemort"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MangiaMorte"/>
+        <NamedIndividual IRI="#LuciusMalfoy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SecondoOrdineDellaFenice"/>
+        <NamedIndividual IRI="#Luna_Lovegood"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Studente"/>
+        <NamedIndividual IRI="#Luna_Lovegood"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#membroCorvonero"/>
+        <NamedIndividual IRI="#Luna_Lovegood"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DifesaControLeArtiOscure"/>
+        <NamedIndividual IRI="#Malocchio_Moody"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Professore"/>
+        <NamedIndividual IRI="#Malocchio_Moody"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Babbano"/>
+        <NamedIndividual IRI="#Marge_Dursley"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Trasfigurazione"/>
+        <NamedIndividual IRI="#McGranitt"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SecondoOrdineDellaFenice"/>
+        <NamedIndividual IRI="#Molly_Weasley"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Animale"/>
+        <NamedIndividual IRI="#Nagini"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SecondoOrdineDellaFenice"/>
+        <NamedIndividual IRI="#Neville_Paciock"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Studente"/>
+        <NamedIndividual IRI="#Neville_Paciock"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#membroGrifondoro"/>
+        <NamedIndividual IRI="#Neville_Paciock"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LuoghiSecondari"/>
+        <NamedIndividual IRI="#Notturn_Alley"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#FabbricatoreBacchette"/>
+        <NamedIndividual IRI="#Ollivander"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SecondoOrdineDellaFenice"/>
+        <NamedIndividual IRI="#Ollivander"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Animale"/>
+        <NamedIndividual IRI="#Oscar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Studente"/>
+        <NamedIndividual IRI="#Percy_Weasley"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#membroGrifondoro"/>
+        <NamedIndividual IRI="#Percy_Weasley"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#prefettoGrifondoro"/>
+        <NamedIndividual IRI="#Percy_Weasley"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Erbologia"/>
+        <NamedIndividual IRI="#Pomona_Sprite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Professore"/>
+        <NamedIndividual IRI="#Pomona_Sprite"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MateriaScolastica"/>
+        <NamedIndividual IRI="#Pozioni"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DifesaControLeArtiOscure"/>
+        <NamedIndividual IRI="#Raptor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Professore"/>
+        <NamedIndividual IRI="#Raptor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DifesaControLeArtiOscure"/>
+        <NamedIndividual IRI="#Remus_Lupin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Professore"/>
+        <NamedIndividual IRI="#Remus_Lupin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SecondoOrdineDellaFenice"/>
+        <NamedIndividual IRI="#Remus_Lupin"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SecondoOrdineDellaFenice"/>
+        <NamedIndividual IRI="#Ron_Weasley"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Studente"/>
+        <NamedIndividual IRI="#Ron_Weasley"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#membroGrifondoro"/>
+        <NamedIndividual IRI="#Ron_Weasley"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SecondoOrdineDellaFenice"/>
+        <NamedIndividual IRI="#Rubeus_Hagrid"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Staff"/>
+        <NamedIndividual IRI="#Rubeus_Hagrid"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MInistroDellaMagia"/>
+        <NamedIndividual IRI="#Rufus_Scrimgeur"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LuogoHogwarts"/>
+        <NamedIndividual IRI="#Sala_Grande"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Studente"/>
+        <NamedIndividual IRI="#Seamus_Finnigan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#membroGrifondoro"/>
+        <NamedIndividual IRI="#Seamus_Finnigan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CaseDiHogwarts"/>
+        <NamedIndividual IRI="#Serpeverde"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DifesaControLeArtiOscure"/>
+        <NamedIndividual IRI="#Severus_Piton"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Pozioni"/>
+        <NamedIndividual IRI="#Severus_Piton"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Professore"/>
+        <NamedIndividual IRI="#Severus_Piton"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Babbano"/>
+        <NamedIndividual IRI="#Signor_Finnigan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Babbano"/>
+        <NamedIndividual IRI="#Signora_Granger"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Babbano"/>
+        <NamedIndividual IRI="#Signore_Granger"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LuogoHogwarts"/>
+        <NamedIndividual IRI="#Sotteranei"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CaseDiHogwarts"/>
+        <NamedIndividual IRI="#Tassorosso"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Animale"/>
+        <NamedIndividual IRI="#Thor"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#MateriaScolastica"/>
+        <NamedIndividual IRI="#Trasfigurazione"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LuoghiSecondari"/>
+        <NamedIndividual IRI="#Villa_Conchiglia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Studente"/>
+        <NamedIndividual IRI="#Vincent_Tiger"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#membroSerpeverde"/>
+        <NamedIndividual IRI="#Vincent_Tiger"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QualitàSerpeverde"/>
+        <NamedIndividual IRI="#ambizioso"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QualitàCorvonero"/>
+        <NamedIndividual IRI="#arguzia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QualitàSerpeverde"/>
+        <NamedIndividual IRI="#astuzia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QualitàGrifondoro"/>
+        <NamedIndividual IRI="#audacia"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bacchetta"/>
+        <NamedIndividual IRI="#bacchetta_tipo_1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bacchetta"/>
+        <NamedIndividual IRI="#bacchetta_tipo_2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bacchetta"/>
+        <NamedIndividual IRI="#bacchetta_tipo_3"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bacchetta"/>
+        <NamedIndividual IRI="#bacchetta_tipo_4"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Bacchetta"/>
+        <NamedIndividual IRI="#bacchetta_tipo_5"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QualitàGrifondoro"/>
+        <NamedIndividual IRI="#coraggio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#OggettoMagico"/>
+        <NamedIndividual IRI="#giratempo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QualitàCorvonero"/>
+        <NamedIndividual IRI="#intelligenza"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QualitàSerpeverde"/>
+        <NamedIndividual IRI="#intraprendente"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QualitàGrifondoro"/>
+        <NamedIndividual IRI="#lealtà"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QualitàTassorosso"/>
+        <NamedIndividual IRI="#pazienza"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QualitàTassorosso"/>
+        <NamedIndividual IRI="#perseveranza"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QualitàGrifondoro"/>
+        <NamedIndividual IRI="#sangue_freddo"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QualitàCorvonero"/>
+        <NamedIndividual IRI="#sapienza"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#QualitàTassorosso"/>
+        <NamedIndividual IRI="#stacanovista"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Luogo"/>
+        <NamedIndividual IRI="#stanza_delle_necessità"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LuoghiSecondari"/>
+        <NamedIndividual IRI="#Godric&apos;s_Hollow"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#possiedeBacchetta"/>
+        <NamedIndividual IRI="#Alastor_Moody"/>
+        <NamedIndividual IRI="#bacchetta_tipo_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#possiedeBacchetta"/>
+        <NamedIndividual IRI="#Albeforth_Silente"/>
+        <NamedIndividual IRI="#bacchetta_tipo_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#possiedeBacchetta"/>
+        <NamedIndividual IRI="#Alectow_Carrow"/>
+        <NamedIndividual IRI="#bacchetta_tipo_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#possiedeBacchetta"/>
+        <NamedIndividual IRI="#Amelia_Bones"/>
+        <NamedIndividual IRI="#bacchetta_tipo_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haComePadrone"/>
+        <NamedIndividual IRI="#Arnold"/>
+        <NamedIndividual IRI="#Ginny_Weasley"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#possiedeBacchetta"/>
+        <NamedIndividual IRI="#Bellatrix_Lestrange"/>
+        <NamedIndividual IRI="#bacchetta_tipo_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#possiedeBacchetta"/>
+        <NamedIndividual IRI="#Billie_Weasley"/>
+        <NamedIndividual IRI="#bacchetta_tipo_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#possiedeBacchetta"/>
+        <NamedIndividual IRI="#Cedric_Diggory"/>
+        <NamedIndividual IRI="#bacchetta_tipo_2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#possiedeBacchetta"/>
+        <NamedIndividual IRI="#Charlie_Weasley"/>
+        <NamedIndividual IRI="#bacchetta_tipo_2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#possiedeBacchetta"/>
+        <NamedIndividual IRI="#Cho_Chang"/>
+        <NamedIndividual IRI="#bacchetta_tipo_2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#prefettoDi"/>
+        <NamedIndividual IRI="#Cho_Chang"/>
+        <NamedIndividual IRI="#Corvonero"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#possiedeBacchetta"/>
+        <NamedIndividual IRI="#Codaliscia"/>
+        <NamedIndividual IRI="#bacchetta_tipo_2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#possiedeBacchetta"/>
+        <NamedIndividual IRI="#Cornelius_Fudge"/>
+        <NamedIndividual IRI="#bacchetta_tipo_2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haComePadrone"/>
+        <NamedIndividual IRI="#Crosta"/>
+        <NamedIndividual IRI="#Ron_Weasley"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haQualita"/>
+        <NamedIndividual IRI="#Dean_Thomas"/>
+        <NamedIndividual IRI="#audacia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haQualita"/>
+        <NamedIndividual IRI="#Dean_Thomas"/>
+        <NamedIndividual IRI="#coraggio"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#possiedeBacchetta"/>
+        <NamedIndividual IRI="#Dean_Thomas"/>
+        <NamedIndividual IRI="#bacchetta_tipo_2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#possiedeBacchetta"/>
+        <NamedIndividual IRI="#Dolores_Umbridge"/>
+        <NamedIndividual IRI="#bacchetta_tipo_2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#possiedeBacchetta"/>
+        <NamedIndividual IRI="#Dorcas_Meadowes"/>
+        <NamedIndividual IRI="#bacchetta_tipo_3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haQualita"/>
+        <NamedIndividual IRI="#Draco_Malfoy"/>
+        <NamedIndividual IRI="#ambizioso"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#possiedeBacchetta"/>
+        <NamedIndividual IRI="#Draco_Malfoy"/>
+        <NamedIndividual IRI="#bacchetta_tipo_3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haComePadrone"/>
+        <NamedIndividual IRI="#Edvige"/>
+        <NamedIndividual IRI="#Harry_Potter"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#possiedeBacchetta"/>
+        <NamedIndividual IRI="#Elphias_Doge"/>
+        <NamedIndividual IRI="#bacchetta_tipo_4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#possiedeBacchetta"/>
+        <NamedIndividual IRI="#Ernie_Macmillan"/>
+        <NamedIndividual IRI="#bacchetta_tipo_4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haQualita"/>
+        <NamedIndividual IRI="#Fred_Weasley"/>
+        <NamedIndividual IRI="#audacia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haQualita"/>
+        <NamedIndividual IRI="#Fred_Weasley"/>
+        <NamedIndividual IRI="#sangue_freddo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#possiedeBacchetta"/>
+        <NamedIndividual IRI="#Fred_Weasley"/>
+        <NamedIndividual IRI="#bacchetta_tipo_5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haQualita"/>
+        <NamedIndividual IRI="#George_Weasley"/>
+        <NamedIndividual IRI="#sangue_freddo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#possiedeBacchetta"/>
+        <NamedIndividual IRI="#George_Weasley"/>
+        <NamedIndividual IRI="#bacchetta_tipo_4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#possiedeBacchetta"/>
+        <NamedIndividual IRI="#Gilderoy_Allock"/>
+        <NamedIndividual IRI="#bacchetta_tipo_3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haQualita"/>
+        <NamedIndividual IRI="#Ginny_Weasley"/>
+        <NamedIndividual IRI="#audacia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#possiedeBacchetta"/>
+        <NamedIndividual IRI="#Ginny_Weasley"/>
+        <NamedIndividual IRI="#bacchetta_tipo_4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haQualita"/>
+        <NamedIndividual IRI="#Gregory_Goyle"/>
+        <NamedIndividual IRI="#astuzia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haQualita"/>
+        <NamedIndividual IRI="#Hannah_Abbott"/>
+        <NamedIndividual IRI="#stacanovista"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haQualita"/>
+        <NamedIndividual IRI="#Harry_Potter"/>
+        <NamedIndividual IRI="#audacia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haQualita"/>
+        <NamedIndividual IRI="#Harry_Potter"/>
+        <NamedIndividual IRI="#coraggio"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haQualita"/>
+        <NamedIndividual IRI="#Harry_Potter"/>
+        <NamedIndividual IRI="#lealtà"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haQualita"/>
+        <NamedIndividual IRI="#Harry_Potter"/>
+        <NamedIndividual IRI="#sangue_freddo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#possiedeBacchetta"/>
+        <NamedIndividual IRI="#Harry_Potter"/>
+        <NamedIndividual IRI="#bacchetta_tipo_4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haComePadrone"/>
+        <NamedIndividual IRI="#Hermes"/>
+        <NamedIndividual IRI="#Percy_Weasley"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haQualita"/>
+        <NamedIndividual IRI="#Hermione_Granger"/>
+        <NamedIndividual IRI="#coraggio"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#possiedeBacchetta"/>
+        <NamedIndividual IRI="#Hermione_Granger"/>
+        <NamedIndividual IRI="#bacchetta_tipo_3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#possiedeBacchetta"/>
+        <NamedIndividual IRI="#Hestia_Jones"/>
+        <NamedIndividual IRI="#bacchetta_tipo_4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#possiedeBacchetta"/>
+        <NamedIndividual IRI="#Horace_Lumacorno"/>
+        <NamedIndividual IRI="#bacchetta_tipo_4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#possiedeBacchetta"/>
+        <NamedIndividual IRI="#James_Potter"/>
+        <NamedIndividual IRI="#bacchetta_tipo_4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#possiedeBacchetta"/>
+        <NamedIndividual IRI="#Kingsley_Shacklebolt"/>
+        <NamedIndividual IRI="#bacchetta_tipo_4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haComePadrone"/>
+        <NamedIndividual IRI="#Leotordo"/>
+        <NamedIndividual IRI="#Ron_Weasley"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#possiedeBacchetta"/>
+        <NamedIndividual IRI="#LilyPotter"/>
+        <NamedIndividual IRI="#bacchetta_tipo_4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#possiedeBacchetta"/>
+        <NamedIndividual IRI="#LuciusMalfoy"/>
+        <NamedIndividual IRI="#bacchetta_tipo_5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haQualita"/>
+        <NamedIndividual IRI="#Luna_Lovegood"/>
+        <NamedIndividual IRI="#intelligenza"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#possiedeBacchetta"/>
+        <NamedIndividual IRI="#Luna_Lovegood"/>
+        <NamedIndividual IRI="#bacchetta_tipo_4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#possiedeBacchetta"/>
+        <NamedIndividual IRI="#Malocchio_Moody"/>
+        <NamedIndividual IRI="#bacchetta_tipo_4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#possiedeBacchetta"/>
+        <NamedIndividual IRI="#McGranitt"/>
+        <NamedIndividual IRI="#bacchetta_tipo_3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#possiedeBacchetta"/>
+        <NamedIndividual IRI="#Molly_Weasley"/>
+        <NamedIndividual IRI="#bacchetta_tipo_4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haComePadrone"/>
+        <NamedIndividual IRI="#Nagini"/>
+        <NamedIndividual IRI="#Lord_Voldemort"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haQualita"/>
+        <NamedIndividual IRI="#Neville_Paciock"/>
+        <NamedIndividual IRI="#audacia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#possiedeBacchetta"/>
+        <NamedIndividual IRI="#Neville_Paciock"/>
+        <NamedIndividual IRI="#bacchetta_tipo_3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haComePadrone"/>
+        <NamedIndividual IRI="#Oscar"/>
+        <NamedIndividual IRI="#Neville_Paciock"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haQualita"/>
+        <NamedIndividual IRI="#Pansy_Parkinson"/>
+        <NamedIndividual IRI="#astuzia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#prefettoDi"/>
+        <NamedIndividual IRI="#Pansy_Parkinson"/>
+        <NamedIndividual IRI="#Serpeverde"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haQualita"/>
+        <NamedIndividual IRI="#Percy_Weasley"/>
+        <NamedIndividual IRI="#lealtà"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#possiedeBacchetta"/>
+        <NamedIndividual IRI="#Percy_Weasley"/>
+        <NamedIndividual IRI="#bacchetta_tipo_4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#possiedeBacchetta"/>
+        <NamedIndividual IRI="#Pomona_Sprite"/>
+        <NamedIndividual IRI="#bacchetta_tipo_3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#possiedeBacchetta"/>
+        <NamedIndividual IRI="#Raptor"/>
+        <NamedIndividual IRI="#bacchetta_tipo_3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#possiedeBacchetta"/>
+        <NamedIndividual IRI="#Remus_Lupin"/>
+        <NamedIndividual IRI="#bacchetta_tipo_4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haAnimale"/>
+        <NamedIndividual IRI="#Ron_Weasley"/>
+        <NamedIndividual IRI="#Leotordo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haQualita"/>
+        <NamedIndividual IRI="#Ron_Weasley"/>
+        <NamedIndividual IRI="#audacia"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haQualita"/>
+        <NamedIndividual IRI="#Ron_Weasley"/>
+        <NamedIndividual IRI="#coraggio"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haQualita"/>
+        <NamedIndividual IRI="#Ron_Weasley"/>
+        <NamedIndividual IRI="#lealtà"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haQualita"/>
+        <NamedIndividual IRI="#Ron_Weasley"/>
+        <NamedIndividual IRI="#sangue_freddo"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#possiedeBacchetta"/>
+        <NamedIndividual IRI="#Ron_Weasley"/>
+        <NamedIndividual IRI="#bacchetta_tipo_4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#possiedeBacchetta"/>
+        <NamedIndividual IRI="#Seamus_Finnigan"/>
+        <NamedIndividual IRI="#bacchetta_tipo_4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#possiedeBacchetta"/>
+        <NamedIndividual IRI="#Severus_Piton"/>
+        <NamedIndividual IRI="#bacchetta_tipo_1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#haComePadrone"/>
+        <NamedIndividual IRI="#Thor"/>
+        <NamedIndividual IRI="#Rubeus_Hagrid"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#costruitaDa"/>
+        <NamedIndividual IRI="#bacchetta_tipo_1"/>
+        <NamedIndividual IRI="#Ollivander"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#costruitaDa"/>
+        <NamedIndividual IRI="#bacchetta_tipo_2"/>
+        <NamedIndividual IRI="#Ollivander"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#costruitaDa"/>
+        <NamedIndividual IRI="#bacchetta_tipo_3"/>
+        <NamedIndividual IRI="#James_Steward"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#costruitaDa"/>
+        <NamedIndividual IRI="#bacchetta_tipo_4"/>
+        <NamedIndividual IRI="#Ollivander"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#costruitaDa"/>
+        <NamedIndividual IRI="#bacchetta_tipo_5"/>
+        <NamedIndividual IRI="#James_Steward"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#usatoDa"/>
+        <NamedIndividual IRI="#stanza_delle_necessità"/>
+        <NamedIndividual IRI="#Billie_Weasley"/>
+    </ObjectPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#alleatoDi"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#bacchettaHaScelto"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#costruitaDa"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#dormeIn"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#haAnimale"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#haComePadrone"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#haCostruito"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#haInsegnato"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#haQualita"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#insegnataDa"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#nemicoDi"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#nonVuoleStareIn"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#possiedeBacchetta"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#prefettoDi"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#usatoDa"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#bacchettaHaScelto"/>
+        <ObjectProperty IRI="#possiedeBacchetta"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#costruitaDa"/>
+        <ObjectProperty IRI="#haCostruito"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#haAnimale"/>
+        <ObjectProperty IRI="#haComePadrone"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#haInsegnato"/>
+        <ObjectProperty IRI="#insegnataDa"/>
+    </InverseObjectProperties>
+    <FunctionalObjectProperty>
+        <ObjectProperty IRI="#nonVuoleStareIn"/>
+    </FunctionalObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#alleatoDi"/>
+        <Class IRI="#OrdineDellaFenice"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#bacchettaHaScelto"/>
+        <Class IRI="#Bacchetta"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#costruitaDa"/>
+        <Class IRI="#Bacchetta"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#dormeIn"/>
+        <Class IRI="#Studente"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#haAnimale"/>
+        <Class IRI="#Mago"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#haComePadrone"/>
+        <Class IRI="#Animale"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#haCostruito"/>
+        <Class IRI="#FabbricatoreBacchette"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#haInsegnato"/>
+        <Class IRI="#Professore"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#haQualita"/>
+        <Class IRI="#Personaggio"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#insegnataDa"/>
+        <Class IRI="#MateriaScolastica"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#nemicoDi"/>
+        <Class IRI="#Personaggio"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#nonVuoleStareIn"/>
+        <Class IRI="#Studente"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#possiedeBacchetta"/>
+        <Class IRI="#Mago"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#prefettoDi"/>
+        <Class IRI="#Studente"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#usatoDa"/>
+        <Class IRI="#Mago"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#alleatoDi"/>
+        <Class IRI="#OrdineDellaFenice"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#bacchettaHaScelto"/>
+        <Class IRI="#Mago"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#costruitaDa"/>
+        <Class IRI="#FabbricatoreBacchette"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#dormeIn"/>
+        <Class IRI="#Dormitorio"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#haAnimale"/>
+        <Class IRI="#Animale"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#haComePadrone"/>
+        <Class IRI="#Mago"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#haCostruito"/>
+        <Class IRI="#Bacchetta"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#haInsegnato"/>
+        <Class IRI="#MateriaScolastica"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#haQualita"/>
+        <Class IRI="#QualitàCase"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#insegnataDa"/>
+        <Class IRI="#Professore"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#nemicoDi"/>
+        <Class IRI="#Personaggio"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#nonVuoleStareIn"/>
+        <Class IRI="#CaseDiHogwarts"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#possiedeBacchetta"/>
+        <Class IRI="#Bacchetta"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#prefettoDi"/>
+        <Class IRI="#CaseDiHogwarts"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#usatoDa"/>
+        <Class IRI="#Luogo"/>
+    </ObjectPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Animale</IRI>
+        <Literal>animali dell&apos; Universo di HarryPotter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Babbano</IRI>
+        <Literal>Un non mago</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#CaseDiHogwarts</IRI>
+        <Literal>istanze delle case di Hogwarts</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Creature</IRI>
+        <Literal>Creature dell&apos; universo di Harry Potter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#DifesaControLeArtiOscure</IRI>
+        <Literal>insieme dei professori che hanno insegnato Difesa contro le Arti Oscure</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Erbologia</IRI>
+        <Literal>insieme dei professori che hanno insegnato Erbologia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#FabbricatoreBacchette</IRI>
+        <Literal>Artigiano che produce bacchette</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Luogo</IRI>
+        <Literal>Luogo dell&apos; universo di Harry Potter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#LuogoHogwarts</IRI>
+        <Literal>Locations that refer to Hogwarts</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#LuogoMangiaMorte</IRI>
+        <Literal>Locations used by DeathEaters</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#LuogoOrdineDellaFenice</IRI>
+        <Literal>Locations used by the order of the phoenix</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MInistroDellaMagia</IRI>
+        <Literal>Ministri della Magia</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Mago</IRI>
+        <Literal>Personaggi che possono fare magie</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MangiaMorte</IRI>
+        <Literal>gli aiutanti di Voldemort</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#MateriaScolastica</IRI>
+        <Literal>Materia insegnata ad Hogwarts</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OggettoMagico</IRI>
+        <Literal>Oggetto dell&apos; universo di Harry Potter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#OrdineDellaFenice</IRI>
+        <Literal>La società segreta costituita da Silente</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Personaggio</IRI>
+        <Literal>Questa sezione contiene i personaggi. Possono essere umani o creature.</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Pozioni</IRI>
+        <Literal>insieme dei professori che hanno insegnato Pozioni</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#PrimoOrdineDellaFenice</IRI>
+        <Literal>secondo ordine del 1995</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Professore</IRI>
+        <Literal>professori di Hogwarts</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#QualitàCase</IRI>
+        <Literal>qualità caratterizzante di un personaggio di una determinata casa</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#QualitàCorvonero</IRI>
+        <Literal>Qualità per cui spicca un Corvonero</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#QualitàGrifondoro</IRI>
+        <Literal>Qualità per cui spicca un Grifondoro</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#QualitàSerpeverde</IRI>
+        <Literal>Qualità per cui spicca un Serpeverde</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#QualitàTassorosso</IRI>
+        <Literal>Qualità per cui spicca un Tassorosso</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#SecondoOrdineDellaFenice</IRI>
+        <Literal>primo Ordine precedente agli anni 80 del 1900</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Staff</IRI>
+        <Literal>staff di Hogwarts</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Studente</IRI>
+        <Literal>studente di Hogwarts</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Trasfigurazione</IRI>
+        <Literal>insieme dei professori che hanno insegnato Trasfigurazione</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Umano</IRI>
+        <Literal>Umani nell&apos; universo di Harry Potter</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#alleatoDi</IRI>
+        <Literal>Descrive se un Personaggio ha combattuto al fianco di un altro</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#bacchettaHaScelto</IRI>
+        <Literal>La bacchetta sceglie il Mago, indica chi ha scelto la bacchetta</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#costruitaDa</IRI>
+        <Literal>Descrive chi ha costruito quella bacchetta</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#haAnimale</IRI>
+        <Literal>Descrive quale animale possiede un dato personaggio</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#haCostruito</IRI>
+        <Literal>Indica l&apos;artigiano che ha costruito la bacchetta</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#haQualita</IRI>
+        <Literal>descrive la qualità di un personaggio</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#membroCorvonero</IRI>
+        <Literal>Questo oggetto definisce uno studente di Corvonero come uno studente che voleva entrare in questa casa avente delle qualità di spicco di Corvonero</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#membroGrifondoro</IRI>
+        <Literal>Questo oggetto definisce uno studente di Grifondoro come uno studente che voleva entrare in questa casa avente delle qualità di spicco di Grifondoro</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#membroSerpeverde</IRI>
+        <Literal>Questo oggetto definisce uno studente di Serpeverde come uno studente che voleva entrare in questa casa avente delle qualità di spicco di Serpeverde</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#membroTassorosso</IRI>
+        <Literal>Questo oggetto definisce uno studente di Tassorosso come uno studente che voleva entrare in questa casa avente delle qualità di spicco di Tassorosso</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#nemicoDi</IRI>
+        <Literal>Describes what entity a character fights against</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#nonVuoleStareIn</IRI>
+        <Literal>Non voleva essere in quella casa</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#prefettoCorvonero</IRI>
+        <Literal>prefetto di Corvonero, il prefetto è no studente capo di quella casa</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#prefettoDi</IRI>
+        <IRI>#prefettoDi</IRI>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#prefettoGrifondoro</IRI>
+        <Literal>prefetto di Grifondoro, il prefetto è no studente capo di quella casa</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#prefettoSerpeverde</IRI>
+        <Literal>prefetto di Serpeverde, il prefetto è no studente capo di quella casa</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#prefettoTassorosso</IRI>
+        <Literal>prefetto di Tassorosso, il prefetto è no studente capo di quella casa</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#usatoDa</IRI>
+        <Literal>Describes what entity uses a given location</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

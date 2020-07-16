@@ -1,0 +1,169 @@
+
+######################################################################################################
+#                                                                                                    #
+#                                   Query SPARQL - Protege KRST                                      #
+#                                                                                                    #
+######################################################################################################
+
+
+
+
+###############################	 HARRY POTTER  ###############################
+
+
+nuovo:
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX  :  <http://www.semanticweb.org/michele/ontologies/2020/7/harrypotter#>
+
+SELECT ?y 
+WHERE
+ { 
+                  ?x rdfs:subClassOf*  :Mago . 
+                  ?y rdf:type ?x . 
+                  
+}
+
+
+
+#################	1	#################
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+SELECT ?subject ?object
+	WHERE { ?subject rdfs:subClassOf ?object }
+
+
+
+#################	2	#################
+
+
+SELECT ?mago
+WHERE
+ { 
+	?mago  :possiedeBacchetta ?bacchetta .
+
+ }
+
+
+#################	3	#################
+
+MOSTRAMI TUTTE LE INSTANZE DI MAGO
+
+SELECT ?y 
+WHERE
+ { 
+                  ?x rdfs:subClassOf*  :Mago . 
+                  ?y rdf:type ?x . 
+                  
+}
+	
+#################	4	#################	
+
+MOSTRAMI I MAGHI CON LA bacchetta_tipo_1
+
+
+SELECT distinct ?y ?b
+WHERE
+ { 
+                  ?x rdfs:subClassOf*  :Mago . 
+                  ?y rdf:type ?x . 
+                  ?y  :possiedeBacchetta  :bacchetta_tipo_1
+                  
+}
+
+
+
+#################	5	#################	
+
+RITORNA TUTTI I MAGHI CON LE RISPETTIVE BACCHETTE PRODOTTE DA JAMES_STEWARD
+CON DISTINCT
+
+SELECT  distinct ?y ?b
+WHERE
+ { 
+                  ?x rdfs:subClassOf*  :Mago . 
+                  ?y rdf:type ?x . 
+                  ?y  :possiedeBacchetta ?b .
+                  ?b  :costruitaDa  :James_Steward
+                  
+}
+
+#################	6	#################	
+
+RITORNA TUTTI I GRIFONDORO ( E RISPETTIVA BACCHETTA) CHE POSSIEDONO UNA BACCHETTA FATTA DA OLIVANDER
+
+
+SELECT ?y ?b
+WHERE
+ { 
+                  ?x rdfs:subClassOf* :membroGrifondoro .
+                  ?y rdf:type ?x . 
+                  ?y  :possiedeBacchetta ?b .
+                  ?b  :costruitaDa  :Ollivander
+                  
+                  
+}
+
+
+
+#################	7	#################	
+
+RITORNA GLI ANIMALI CHE APPARTENGONO A RON WEASLEY
+
+SELECT ?y 
+WHERE
+ { 
+                  
+                  ?y  :haComePadrone :Ron_Weasley.
+                 
+                  
+                  
+}
+
+
+########################## 8  #######################################
+
+RITORNA LO STUDENTE FACENTE PARTE DEL SECONDO ORDINE , AVENTE QUALITA AUDACIA,CORAGGIO E SANGUE FREDDO . IL PERSONAGGIO DEVE AVERE  UN ANIMALE
+
+
+
+
+
+
+SELECT ?y?a
+WHERE{
+
+	
+	?s  rdfs:subClassOf* :SecondoOrdineDellaFenice.
+	?y  rdf:type ?s .
+    ?y  :haQualita   :audacia .
+	?y  :haQualita   :coraggio.
+	?y  :haQualita   :sangue_freddo.
+	?y  :haAnimale ?a .
+}
+
+
+
+
+
+######################################################################################################
+#                                                                                                    #
+#                                       Query DL - Protege KRST                                      #
+#                                                                                                    #
+######################################################################################################
+dormeIn value Dormitorio_Grifondoro and haAnimale some
+	
+
+dormeIn value Dormitorio_Grifondoro and haAnimale some and prefettoDi value Grifondoro
+
+
+OrdineDellaFenice and haCostruito value bacchetta_tipo_1
+
+
+(haAnimale  some) and membroGrifondoro and OrdineDellaFenice
+INVERSA DELLA PRECEDENTE:
+(haComePadrone some (membroGrifondoro and OrdineDellaFenice))
